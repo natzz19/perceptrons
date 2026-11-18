@@ -1,0 +1,18 @@
+# Build output
+builds/
+
+# Object files / executables
+*.o
+*.out
+*.exe
+
+# Datasets and generated files: keep the folders, not their contents
+MNIST/assets/*
+!MNIST/assets/.gitkeep
+
+MNIST/out/*.txt
+!MNIST/out/*.weights
+!MNIST/out/.gitkeep
+
+# Python
+__pycache__/
